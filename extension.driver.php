@@ -7,7 +7,7 @@
 	/**
 	 * A text formatter for Doccy, the lightweight markup language for technical writing.
 	 */
-	class Extension_Repeating_Date_Field extends Extension {
+	class Extension_Doccy_Text_Formatter extends Extension {
 		/**
 		 * Extension information.
 		 */
