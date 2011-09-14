@@ -1,0 +1,3 @@
+[submodule "doccy"]
+	path = doccy
+	url = git://github.com/rowan-lewis/doccy.git
