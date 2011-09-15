@@ -27,6 +27,11 @@
 				require_once __DIR__ . '/../doccy/libs/doccy.php';
 			}
 
+			// Fix badly pasted content with non Unix line endings:
+			$string = str_replace("\r\n", "\n", $string);
+			$string = str_replace("\r", "\n", $string);
+
+			// Create a new template, and parse:
 			$tpl = new Doccy\Template();
 			$tpl->parseString($string);
 
