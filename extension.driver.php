@@ -38,7 +38,7 @@
 		public function initaliseAdminPageHead($context) {
 			$page = Administration::instance()->Page;
 			$page->addScriptToHead(URL . '/extensions/doccy_text_formatter/snicked/assets/jquery.snicked.js');
-			$page->addScriptToHead(URL . '/extensions/doccy_text_formatter/snicked/assets/jquery.snickedCore.js');
+			$page->addScriptToHead(URL . '/extensions/doccy_text_formatter/snicked/assets/snicked.doccy.js');
 			$page->addScriptToHead(URL . '/extensions/doccy_text_formatter/assets/publish.js');
 		}
 	}
